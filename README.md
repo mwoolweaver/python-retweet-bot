@@ -37,7 +37,7 @@ Use as cron job
 
 create file at 
 
-```/etc/cron.d/retweet-bot```
+```/etc/cron.d/retweetBot```
 
 with the contents
 
