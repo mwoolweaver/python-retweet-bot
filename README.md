@@ -50,4 +50,4 @@ please use https://crontab.guru for more info on how to set time for cron jobs.
 Compatibility
 -------------
 
-Compatible with Python 3.x, tested on Python 3.6.
+Compatible with Python 3.7 && tweepy 3.7
