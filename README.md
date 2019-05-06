@@ -1,7 +1,7 @@
 Retweet Bot
 ==================
 
-![alt text](https://img.shields.io/badge/python-3.7-green.svg "Python3.7")
+![alt text](https://img.shields.io/badge/python-3.7-green.svg "Python3.7") ![alt text](https://img.shields.io/badge/tweepy-3.7-green.svg "tweepy3.7")
 
 This script retweets certain tweets with a specific search query and can use parameters defined in the config file to perform additional actions. To limit Twitter requests it uses a savepoint for each configured query objects, search query id and marks the last tweet it retweeted. 
 
