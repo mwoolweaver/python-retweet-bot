@@ -50,7 +50,7 @@ please use https://crontab.guru for more info on how to set time for cron jobs.
 Working Example
 ---------------
 
-‪https://twitter.com/alderaantechnet‬
+‪https://twitter.com/AlderaanTechNet‬
 
 Compatibility
 -------------
