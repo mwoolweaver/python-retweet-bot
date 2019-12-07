@@ -1,0 +1,33 @@
+<h1 id="retweet-bot">Retweet Bot</h1>
+<p><img src="https://img.shields.io/badge/python-3.7-green.svg" alt="alt text" title="Python3.7"> <img src="https://img.shields.io/badge/tweepy-3.7-green.svg" alt="alt text" title="tweepy3.7"></p>
+<p>This script retweets certain tweets with a specific search query and can use parameters defined in the config file to perform additional actions. To limit Twitter requests it uses a savepoint for each configured query objects, search query id and marks the last tweet it retweeted. </p>
+<p>It&#39;s Twitter API v1.1 ready.</p>
+<h2 id="requirements-">Requirements:</h2>
+<p>You need Python 3.4 or later to run mypy. You can have multiple Python versions (2.x and 3.x) installed on the same system without problems.</p>
+<p>To download Python 3.4 on Linux, OS X and Windows, packages are available at</p>
+<p>  <a href="http://www.python.org/getit/">http://www.python.org/getit/</a></p>
+<h2 id="dependencies-">Dependencies:</h2>
+<p>Install the dependencies like this:</p>
+<p>   <code>pip install -r requirements.txt</code></p>
+<h2 id="quick-start-">Quick start:</h2>
+<p>To start create a copy of <code>config.SAMPLE.json</code> and rename to <code>config.json</code>, then follow the steps below.</p>
+<ul>
+<li>In <code>config.json</code> define your <code>query_objects</code> in the config file. See <a href="https://git.io/vNqUv">https://git.io/vNqUv</a> for an example</li>
+<li>In <code>config.json</code> define your <code>twitter_keys</code> to the config file. Find these at <a href="https://apps.twitter.com/">https://apps.twitter.com/</a></li>
+</ul>
+<p>If Python is installed correctly and your <code>config.json</code> file is setup, you can run the bot by using: </p>
+<ul>
+<li>$ python retweet.py</li>
+</ul>
+<h2 id="use-as-cron-job">Use as cron job</h2>
+<p>create file at </p>
+<pre><code class="lang-/etc/cron.d/retweetBot```">
+<span class="hljs-keyword">with</span> <span class="hljs-keyword">the</span> <span class="hljs-built_in">contents</span>
+</code></pre>
+<p>30 <em> </em> <em> </em> [your-user-here] cd ~/retweet-bot/src/ &amp;&amp; python3 main.py &gt;&gt; ~/retweet-bot/twitter_bot.txt
+```</p>
+<p>please use <a href="https://crontab.guru">https://crontab.guru</a> for more info on how to set time for cron jobs.</p>
+<h2 id="working-example">Working Example</h2>
+<p><a href="https://twitter.com/ComputeHole">https://twitter.com/ComputeHole</a></p>
+<h2 id="compatibility">Compatibility</h2>
+<p>Compatible with Python 3.7 &amp;&amp; tweepy 3.7</p>
